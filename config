@@ -15,6 +15,12 @@ Host devB
   IdentityFile ~/.ssh/devB.pem
   ProxyJump Bastion
 
+Host devC
+  Hostname 10.0.157.173
+  User ubuntu
+  IdentityFile ~/.ssh/devB.pem
+  ProxyJump Bastion
+
 Host haproxy
   Hostname 3.231.149.192
   User ubuntu
